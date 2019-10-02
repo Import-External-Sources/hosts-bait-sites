@@ -21,6 +21,7 @@ env:
 
 addons:
   apt:
+    update: true
     packages:
     - dos2unix
     - msttcorefonts
