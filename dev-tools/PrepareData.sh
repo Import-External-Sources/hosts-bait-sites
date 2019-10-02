@@ -21,7 +21,7 @@
 # **********************************
 
 # Type the url of source here
-SOURCE=""
+SOURCE="https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/bait_sites/wildcard.list"
 input1=${TRAVIS_BUILD_DIR}/PULL_REQUESTS/domains.txt
 
 # *********************************************
