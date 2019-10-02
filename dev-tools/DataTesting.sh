@@ -5,6 +5,8 @@
 # Created by: Mitchell Krog (mitchellkrog@gmail.com)
 # Copyright: Mitchell Krog - https://github.com/mitchellkrogza
 
+set -e
+
 # ****************************************************************
 # This uses the awesome PyFunceble script created by Nissar Chababy
 # Find funceble at: https://github.com/funilrys/PyFunceble
@@ -40,7 +42,7 @@ RunFunceble () {
     fi
 
     #PyFunceble --travis -db -ex --dns 95.216.209.53 116.203.32.67 --cmd-before-end "bash ${TRAVIS_BUILD_DIR}/dev-tools/FinalCommit.sh" --plain --autosave-minutes 20 --commit-autosave-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER}  [Auto Saved]" --commit-results-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER} [skip ci]" -f ${input}
-    PyFunceble --travis -db -ex --dns 95.216.209.53 116.203.32.67 --cmd-before-end "bash -v ${TRAVIS_BUILD_DIR}/dev-tools/FinalCommit.sh" --plain --autosave-minutes 20 --commit-autosave-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER} [PyFunceble]" --commit-results-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER}" -f ${input}
+    PyFunceble --travis -db -ex --cmd-before-end "bash ${TRAVIS_BUILD_DIR}/dev-tools/FinalCommit.sh" --plain --autosave-minutes 20 --commit-autosave-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER} [PyFunceble]" --commit-results-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER}" -f ${input}
 
 }
 
