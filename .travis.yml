@@ -43,4 +43,4 @@ sudo: required
 
 script:
   # We put both in same statement so that if one fails the whole test result will fail.
-  - bash dev-tools/PrepareData.sh && bash dev-tools/DataTesting.sh
+  - bash -v dev-tools/PrepareData.sh && bash -v dev-tools/DataTesting.sh
