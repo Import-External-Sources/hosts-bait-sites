@@ -12774,6 +12774,11 @@
         "expiration_date": "18-oct-2020",
         "state": "future"
     },
+    "blogspot.cf": {
+        "epoch": 1593216000,
+        "expiration_date": "27-jun-2020",
+        "state": "future"
+    },
     "blogspot.cl": {
         "epoch": 1604361600,
         "expiration_date": "03-nov-2020",

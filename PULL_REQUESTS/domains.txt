@@ -71,7 +71,5 @@ blogspot.td
 blogspot.tw
 blogspot.ug
 blogspot.vn
-facebook.com
-google.com
 leboncoin.fr
 vinted.fr
