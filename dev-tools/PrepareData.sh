@@ -20,8 +20,6 @@
 # Setup input bots and referer lists
 # **********************************
 
-# Type the url of source here
-SOURCE="https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/bait_sites/wildcard.list"
 input1=${TRAVIS_BUILD_DIR}/PULL_REQUESTS/domains.txt
 
 # *********************************************
@@ -45,7 +43,7 @@ PrepareTravis
 
 PrepareLists () {
 
-    wget -qO- "${SOURCE}" >> ${input1}
+    wget -qO- "https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/bait_sites/wildcard.list" >> ${input1}
 
     sort -u -f ${input1} -o ${input1}
     dos2unix ${input1}
