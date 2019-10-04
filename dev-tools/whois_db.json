@@ -9464,6 +9464,11 @@
         "expiration_date": "04-jan-2020",
         "state": "future"
     },
+    "addtoany.com": {
+        "epoch": 1583798400,
+        "expiration_date": "10-mar-2020",
+        "state": "future"
+    },
     "adrunnr.com": {
         "epoch": "1614636000",
         "expiration_date": "02-mar-2021",
@@ -18374,6 +18379,16 @@
         "expiration_date": "30-mar-2028",
         "state": "future"
     },
+    "facebook.fr": {
+        "epoch": 1589068800,
+        "expiration_date": "10-may-2020",
+        "state": "future"
+    },
+    "facebook.net": {
+        "epoch": 1838160000,
+        "expiration_date": "01-apr-2028",
+        "state": "future"
+    },
     "facebookaccounthack.net": {
         "epoch": "1576447200",
         "expiration_date": "16-dec-2019",
@@ -18684,6 +18699,21 @@
         "expiration_date": "19-nov-2019",
         "state": "future"
     },
+    "fb.com": {
+        "epoch": 1842652800,
+        "expiration_date": "23-may-2028",
+        "state": "future"
+    },
+    "fb.me": {
+        "epoch": 1816387200,
+        "expiration_date": "24-jul-2027",
+        "state": "future"
+    },
+    "fbcdn.com": {
+        "epoch": 1840924800,
+        "expiration_date": "03-may-2028",
+        "state": "future"
+    },
     "fbcpublications.com": {
         "epoch": "1571090400",
         "expiration_date": "15-oct-2019",
@@ -18702,6 +18732,11 @@
     "fbphotos.net": {
         "epoch": "1579903200",
         "expiration_date": "25-jan-2020",
+        "state": "future"
+    },
+    "fbsbx.com": {
+        "epoch": 1812412800,
+        "expiration_date": "08-jun-2027",
         "state": "future"
     },
     "fceq.com": {
@@ -19452,6 +19487,11 @@
     "freeassclips.com": {
         "epoch": "1570572000",
         "expiration_date": "09-oct-2019",
+        "state": "future"
+    },
+    "freebasics.com": {
+        "epoch": 1816300800,
+        "expiration_date": "23-jul-2027",
         "state": "future"
     },
     "freebie-galleries.com": {
@@ -23889,6 +23929,11 @@
         "expiration_date": "02-jul-2020",
         "state": "future"
     },
+    "internet.org": {
+        "epoch": 1823817600,
+        "expiration_date": "18-oct-2027",
+        "state": "future"
+    },
     "internetartfair.com": {
         "epoch": "1577829600",
         "expiration_date": "01-jan-2020",
@@ -26439,6 +26484,11 @@
         "expiration_date": "31-may-2021",
         "state": "future"
     },
+    "m.me": {
+        "epoch": 1810771200,
+        "expiration_date": "20-may-2027",
+        "state": "future"
+    },
     "m1crosoft.info": {
         "epoch": "1572472800",
         "expiration_date": "31-oct-2019",
@@ -27057,6 +27107,11 @@
     "mericnakliyat.com": {
         "epoch": "1585346400",
         "expiration_date": "28-mar-2020",
+        "state": "future"
+    },
+    "messenger.com": {
+        "epoch": 1825200000,
+        "expiration_date": "03-nov-2027",
         "state": "future"
     },
     "mesto-x.com": {
@@ -38059,6 +38114,11 @@
         "expiration_date": "24-dec-2019",
         "state": "future"
     },
+    "tfbnw.net": {
+        "epoch": 1829088000,
+        "expiration_date": "18-dec-2027",
+        "state": "future"
+    },
     "tgps.biz": {
         "epoch": "1537999200",
         "expiration_date": "27-sep-2018",
@@ -40938,6 +40998,11 @@
         "epoch": "1536098400",
         "expiration_date": "05-sep-2018",
         "state": "past"
+    },
+    "whatsapp.com": {
+        "epoch": 1820016000,
+        "expiration_date": "04-sep-2027",
+        "state": "future"
     },
     "white-slut.com": {
         "epoch": "1568844000",
