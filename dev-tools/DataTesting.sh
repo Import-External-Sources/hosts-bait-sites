@@ -42,8 +42,14 @@ RunFunceble () {
     fi
 
     #PyFunceble --travis -db -ex --dns 95.216.209.53 116.203.32.67 --cmd-before-end "bash ${TRAVIS_BUILD_DIR}/dev-tools/FinalCommit.sh" --plain --autosave-minutes 20 --commit-autosave-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER}  [Auto Saved]" --commit-results-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER} [skip ci]" -f ${input}
-    PyFunceble --travis -db -ex --cmd-before-end "bash ${TRAVIS_BUILD_DIR}/dev-tools/FinalCommit.sh" --plain --autosave-minutes 20 --commit-autosave-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER} [PyFunceble]" --commit-results-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER}" -f ${input}
-
+    #PyFunceble --travis -db -ex --cmd-before-end "bash ${TRAVIS_BUILD_DIR}/dev-tools/FinalCommit.sh" --plain --autosave-minutes 20 --commit-autosave-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER} [PyFunceble]" --commit-results-message "V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER}" -f ${input}
+    PyFunceble --ci -q -h -m -p $(nproc --ignore=1) -db \
+        --database-type mariadb -ex --plain --dns 127.0.0.1 \
+        --autosave-minutes 20 --share-logs --http --idna \
+        --hierarchical --ci-branch master \
+        --ci-distribution-branch master  \
+        --cmd-before-end "bash ${TRAVIS_BUILD_DIR}/dev-tools/FinalCommit.sh" \
+        -f "https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/bait_sites/wildcard.list"
 }
 
 RunFunceble
