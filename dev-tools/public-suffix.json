@@ -69,7 +69,6 @@
         "express.aero",
         "federation.aero",
         "flight.aero",
-        "freight.aero",
         "fuel.aero",
         "gliding.aero",
         "government.aero",
@@ -166,6 +165,7 @@
         "a.run.app",
         "hasura.app",
         "loginline.app",
+        "netlify.app",
         "run.app",
         "telebit.app",
         "web.app",
@@ -217,7 +217,8 @@
         "kunden.ortsinfo.at",
         "lima-city.at",
         "or.at",
-        "priv.at"
+        "priv.at",
+        "sth.ac.at"
     ],
     "au": [
         "act.au",
@@ -229,7 +230,6 @@
         "conf.au",
         "edu.au",
         "education.tas.edu.au",
-        "eq.edu.au",
         "gov.au",
         "id.au",
         "info.au",
@@ -662,6 +662,7 @@
         "edu.bz",
         "gov.bz",
         "net.bz",
+        "nom.bz",
         "nym.bz",
         "org.bz",
         "za.bz"
@@ -743,6 +744,7 @@
         "ck"
     ],
     "cl": [
+        "aprendemas.cl",
         "blogspot.cl",
         "co.cl",
         "gob.cl",
@@ -754,9 +756,11 @@
         "linkyard.cloud",
         "magentosite.cloud",
         "on-rancher.cloud",
+        "perspecta.cloud",
         "sensiosite.cloud",
         "statics.cloud",
         "trafficplex.cloud",
+        "urown.cloud",
         "vapor.cloud",
         "voorloper.cloud"
     ],
@@ -831,7 +835,6 @@
         "crd.co",
         "edu.co",
         "firm.co",
-        "go-vip.co",
         "gov.co",
         "info.co",
         "int.co",
@@ -855,6 +858,7 @@
         "1kapp.com",
         "3utilities.com",
         "4u.com",
+        "adobeaemcloud.com",
         "africa.com",
         "alpha-myqnapcloud.com",
         "alpha.bounty-full.com",
@@ -872,6 +876,7 @@
         "apps.fbsbx.com",
         "appspot.com",
         "ar.com",
+        "awsmppl.com",
         "balena-devices.com",
         "barsycenter.com",
         "barsyonline.com",
@@ -885,6 +890,7 @@
         "bounty-full.com",
         "bplaced.com",
         "br.com",
+        "builtwithdark.com",
         "ca-central-1.elasticbeanstalk.com",
         "cechire.com",
         "ciscofreak.com",
@@ -896,6 +902,7 @@
         "codespot.com",
         "compute-1.amazonaws.com",
         "compute.amazonaws.com",
+        "customer-oci.com",
         "damnserver.com",
         "dattolocal.com",
         "dattorelay.com",
@@ -906,6 +913,7 @@
         "ddnslive.com",
         "de.com",
         "dev-myqnapcloud.com",
+        "dev.adobeaemcloud.com",
         "ditchyourip.com",
         "dnsalias.com",
         "dnsdojo.com",
@@ -954,7 +962,6 @@
         "fastvps-server.com",
         "firebaseapp.com",
         "firewall-gateway.com",
-        "flynnhub.com",
         "freebox-os.com",
         "freeboxos.com",
         "from-ak.com",
@@ -1006,6 +1013,7 @@
         "from-wy.com",
         "gb.com",
         "geekgalaxy.com",
+        "gentapps.com",
         "getmyip.com",
         "giize.com",
         "githubusercontent.com",
@@ -1115,7 +1123,11 @@
         "nfshost.com",
         "no.com",
         "nodebalancer.linode.com",
+        "oci.customer-oci.com",
+        "ocp.customer-oci.com",
+        "ocs.customer-oci.com",
         "on-aptible.com",
+        "onfabrica.com",
         "onrender.com",
         "onthewifi.com",
         "ooguy.com",
@@ -1126,13 +1138,17 @@
         "pagespeedmobilizer.com",
         "pgfog.com",
         "pixolino.com",
+        "platter-app.com",
+        "playstation-cloud.com",
         "point2this.com",
         "publishproxy.com",
         "qa2.com",
+        "qbuser.com",
         "qc.com",
         "qualifioapp.com",
         "quicksytes.com",
         "quipelements.com",
+        "r.appspot.com",
         "rackmaze.com",
         "remotewd.com",
         "rhcloud.com",
@@ -1216,8 +1232,10 @@
         "shopitsite.com",
         "simple-url.com",
         "sinaapp.com",
+        "skygearapp.com",
         "space-to-rent.com",
         "stackhero-network.com",
+        "static.observableusercontent.com",
         "stufftoread.com",
         "teaches-yoga.com",
         "temp-dns.com",
@@ -1246,7 +1264,6 @@
         "withgoogle.com",
         "withyoutube.com",
         "workisboring.com",
-        "wpcomstaging.com",
         "wpdevcloud.com",
         "writesthisblog.com",
         "xen.prgmr.com",
@@ -1256,6 +1273,7 @@
         "za.com"
     ],
     "community": [
+        "myforum.community",
         "ravendb.community"
     ],
     "cool": [
@@ -1326,9 +1344,11 @@
         "blogspot.de",
         "bplaced.de",
         "com.de",
+        "community-pro.de",
         "customer.speedpartner.de",
         "dd-dns.de",
         "ddnss.de",
+        "diskussionsbereich.de",
         "dnshome.de",
         "dnsupdater.de",
         "dray-dns.de",
@@ -1370,6 +1390,7 @@
         "my-vigor.de",
         "my-wan.de",
         "myhome-server.de",
+        "schulserver.de",
         "spdns.de",
         "square7.de",
         "svn-repos.de",
@@ -1387,9 +1408,11 @@
         "bss.design"
     ],
     "dev": [
+        "curv.dev",
         "iserv.dev",
         "lcl.dev",
         "loginline.dev",
+        "platter-app.dev",
         "stg.dev",
         "webhare.dev",
         "workers.dev"
@@ -1551,7 +1574,16 @@
         "ptplus.fit"
     ],
     "fj": [
-        "fj"
+        "ac.fj",
+        "biz.fj",
+        "com.fj",
+        "gov.fj",
+        "info.fj",
+        "mil.fj",
+        "name.fj",
+        "net.fj",
+        "org.fj",
+        "pro.fj"
     ],
     "fk": [
         "fk"
@@ -1570,6 +1602,7 @@
         "chirurgiens-dentistes-en-france.fr",
         "chirurgiens-dentistes.fr",
         "com.fr",
+        "en-root.fr",
         "experts-comptables.fr",
         "fbx-os.fr",
         "fbxos.fr",
@@ -1608,9 +1641,11 @@
     "gg": [
         "co.gg",
         "cya.gg",
+        "daemon.panel.gg",
         "kaas.gg",
         "net.gg",
-        "org.gg"
+        "org.gg",
+        "panel.gg"
     ],
     "gh": [
         "com.gh",
@@ -1734,8 +1769,10 @@
     ],
     "host": [
         "cloudaccess.host",
+        "fastvps.host",
         "freesite.host",
         "half.host",
+        "myfast.host",
         "pcloud.host"
     ],
     "hosting": [
@@ -1815,8 +1852,7 @@
         "or.id",
         "ponpes.id",
         "sch.id",
-        "web.id",
-        "zone.id"
+        "web.id"
     ],
     "ie": [
         "blogspot.ie",
@@ -1869,6 +1905,7 @@
         "barrell-of-knowledge.info",
         "barsy.info",
         "cloudns.info",
+        "dnsupdate.info",
         "dvrcam.info",
         "dynamic-dns.info",
         "dyndns.info",
@@ -1917,20 +1954,24 @@
         "devices.resinstaging.io",
         "drud.io",
         "dyn53.io",
+        "dyndns.dappnode.io",
         "enonic.io",
         "github.io",
         "gitlab.io",
         "hasura-app.io",
         "hzc.io",
         "loginline.io",
+        "lolipop.io",
         "mo-siemens.io",
         "moonscale.io",
         "ngrok.io",
         "nid.io",
         "nodum.io",
+        "on-k3s.io",
         "on-rio.io",
         "pantheonsite.io",
         "protonet.io",
+        "qcx.io",
         "readthedocs.io",
         "resindevice.io",
         "s5y.io",
@@ -1940,6 +1981,7 @@
         "spacekit.io",
         "stage.nodeart.io",
         "stolos.io",
+        "sys.qcx.io",
         "telebit.io",
         "uk0.bigv.io",
         "utwente.io",
@@ -4433,6 +4475,7 @@
         "id.lv",
         "mil.lv",
         "net.lv",
+        "nom.lv",
         "org.lv"
     ],
     "ly": [
@@ -4470,11 +4513,13 @@
         "brasilia.me",
         "c66.me",
         "co.me",
+        "couk.me",
         "daplie.me",
         "ddns.me",
         "diskstation.me",
         "dnsfor.me",
         "dscloud.me",
+        "edgestack.me",
         "edu.me",
         "filegear-au.me",
         "filegear-de.me",
@@ -4502,6 +4547,7 @@
         "soundcast.me",
         "synology.me",
         "tcp4.me",
+        "ukco.me",
         "webhop.me",
         "wedeploy.me",
         "yombo.me"
@@ -5232,6 +5278,7 @@
     "net": [
         "a.prod.fastly.net",
         "a.ssl.fastly.net",
+        "adobeaemcloud.net",
         "alwaysdata.net",
         "at-band-camp.net",
         "azure-mobile.net",
@@ -5248,12 +5295,14 @@
         "casacam.net",
         "cdn77-ssl.net",
         "channelsdvr.net",
+        "clic2000.net",
         "cloudaccess.net",
         "cloudapp.net",
         "cloudeity.net",
         "cloudfront.net",
         "cloudfunctions.net",
         "cloudycluster.net",
+        "community-pro.net",
         "cryptonomic.net",
         "dattolocal.net",
         "ddns.net",
@@ -5285,7 +5334,6 @@
         "gets-it.net",
         "global.prod.fastly.net",
         "global.ssl.fastly.net",
-        "go-vip.net",
         "ham-radio-op.net",
         "hicam.net",
         "homeftp.net",
@@ -5308,6 +5356,7 @@
         "knx-server.net",
         "map.fastly.net",
         "map.fastlylb.net",
+        "meinforum.net",
         "memset.net",
         "moonscale.net",
         "mydatto.net",
@@ -5334,6 +5383,7 @@
         "se.net",
         "selfip.net",
         "sells-it.net",
+        "senseering.net",
         "servebbs.net",
         "serveblog.net",
         "serveftp.net",
@@ -5347,6 +5397,7 @@
         "t3l3p0rt.net",
         "thruhere.net",
         "twmail.net",
+        "u.channelsdvr.net",
         "uk.net",
         "uni5.net",
         "user.srcf.net",
@@ -5388,6 +5439,7 @@
         "mobi.ng",
         "name.ng",
         "net.ng",
+        "ngo.ng",
         "org.ng",
         "sch.ng"
     ],
@@ -5408,6 +5460,7 @@
         "web.ni"
     ],
     "nl": [
+        "amsw.nl",
         "blogspot.nl",
         "cistron.nl",
         "co.nl",
@@ -6191,8 +6244,7 @@
         "merseine.nu",
         "mine.nu",
         "nom.nu",
-        "shacknet.nu",
-        "site.builder.nu"
+        "shacknet.nu"
     ],
     "nz": [
         "ac.nz",
@@ -6238,6 +6290,7 @@
         "accesscam.org",
         "ae.org",
         "al.eu.org",
+        "altervista.org",
         "app.os.fedoraproject.org",
         "app.os.stg.fedoraproject.org",
         "asso.eu.org",
@@ -6391,6 +6444,7 @@
         "stuff-4-sale.org",
         "sweetpepper.org",
         "tele.amune.org",
+        "toolforge.org",
         "tr.eu.org",
         "tunk.org",
         "tuxfamily.org",
@@ -6402,6 +6456,7 @@
         "us.org",
         "webhop.org",
         "webredirect.org",
+        "wmcloud.org",
         "wmflabs.org",
         "za.org",
         "zapto.org"
@@ -6928,6 +6983,9 @@
     "science": [
         "ybo.science"
     ],
+    "scot": [
+        "gov.scot"
+    ],
     "sd": [
         "com.sd",
         "edu.sd",
@@ -7017,8 +7075,10 @@
         "byen.site",
         "cloudera.site",
         "cyon.site",
+        "fastvps.site",
         "lelux.site",
         "loginline.site",
+        "mintere.site",
         "platformsh.site"
     ],
     "sk": [
@@ -7044,14 +7104,26 @@
     ],
     "so": [
         "com.so",
+        "edu.so",
+        "gov.so",
+        "me.so",
         "net.so",
         "org.so",
         "sch.so"
     ],
     "space": [
         "linkitools.space",
+        "myfast.space",
         "uber.space",
         "xs4all.space"
+    ],
+    "ss": [
+        "biz.ss",
+        "com.ss",
+        "edu.ss",
+        "gov.ss",
+        "net.ss",
+        "org.ss"
     ],
     "st": [
         "co.st",
@@ -7068,6 +7140,9 @@
         "principe.st",
         "saotome.st",
         "store.st"
+    ],
+    "store": [
+        "shopware.store"
     ],
     "su": [
         "abkhazia.su",
@@ -7157,6 +7232,9 @@
     "td": [
         "blogspot.td"
     ],
+    "team": [
+        "discourse.team"
+    ],
     "technology": [
         "co.technology"
     ],
@@ -7226,11 +7304,13 @@
     ],
     "to": [
         "com.to",
+        "direct.quickconnect.to",
         "edu.to",
         "gov.to",
         "mil.to",
         "net.to",
         "org.to",
+        "oya.to",
         "vpnplus.to"
     ],
     "top": [
@@ -7396,6 +7476,7 @@
         "ternopil.ua",
         "uz.ua",
         "uzhgorod.ua",
+        "v.ua",
         "vinnica.ua",
         "vinnytsia.ua",
         "vn.ua",
@@ -7427,6 +7508,8 @@
         "barsyonline.co.uk",
         "blogspot.co.uk",
         "co.uk",
+        "conn.uk",
+        "copro.uk",
         "dh.bytemark.co.uk",
         "glug.org.uk",
         "gov.uk",
@@ -7528,6 +7611,7 @@
         "ga.us",
         "gen.mi.us",
         "golffan.us",
+        "graphox.us",
         "gu.us",
         "hi.us",
         "ia.us",
@@ -7576,7 +7660,6 @@
         "k12.or.us",
         "k12.pa.us",
         "k12.pr.us",
-        "k12.ri.us",
         "k12.sc.us",
         "k12.tn.us",
         "k12.tx.us",
@@ -7670,6 +7753,7 @@
         "or.us",
         "pa.us",
         "paroch.k12.ma.us",
+        "platterp.us",
         "pointto.us",
         "pr.us",
         "pvt.k12.ma.us",
@@ -7707,6 +7791,7 @@
         "org.uz"
     ],
     "vc": [
+        "0e.vc",
         "com.vc",
         "d.gv.vc",
         "edu.vc",
