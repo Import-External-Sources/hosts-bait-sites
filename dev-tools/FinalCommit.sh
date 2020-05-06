@@ -27,7 +27,7 @@ mv ${TRAVIS_BUILD_DIR}/dev-tools/output/hosts/ACTIVE/hosts ${TRAVIS_BUILD_DIR}/h
 
 if [ -f "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/INACTIVE/list" ]
 then
-  mv "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/INACTIVE/list" > "${TRAVIS_BUILD_DIR}/apparently_inactive.txt"
+  mv "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/INACTIVE/list" "${TRAVIS_BUILD_DIR}/apparently_inactive.txt"
 else
 	exit 0
 fi
