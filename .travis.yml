@@ -52,8 +52,8 @@ script:
   - sudo mysql -u root -h localhost -e "CREATE USER 'PyFunceble'@'localhost' IDENTIFIED
     BY 'PyFunceble';"
   - sudo mysql -u root -h localhost -e "GRANT ALL PRIVILEGES ON *.* TO 'PyFunceble'@'localhost';"
-  - sudo mysql --user=PyFunceble --password=PyFunceble PyFunceble < ${HOME}/db/pyfunceble.sql
+  - sudo mysql --user=PyFunceble --password=PyFunceble PyFunceble < "${TRAVIS_BUILD_DIR}/db/pyfunceble.sql"
   # We put both in same statement so that if one fails the whole test result will fail.
-  - bash dev-tools/DataTesting.sh && mkdir -p
-    "${TRAVIS_BUILD_DIR}/db/"" && sudo mysqldump --user=PyFunceble --password=PyFunceble --opt PyFunceble
+  - bash dev-tools/DataTesting.sh && mkdir -p "${TRAVIS_BUILD_DIR}/db/" \
+    && sudo mysqldump --user=PyFunceble --password=PyFunceble --opt PyFunceble
     > "${TRAVIS_BUILD_DIR}/db/pyfunceble.sql"
