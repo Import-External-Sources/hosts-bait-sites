@@ -23,7 +23,7 @@
 grep -vE "^(#|$)" ${TRAVIS_BUILD_DIR}/dev-tools/output/domains/ACTIVE/list > tempdomains.txt
 mv tempdomains.txt "${TRAVIS_BUILD_DIR}/PULL_REQUESTS/domains.txt"
 
-cp "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/ACTIVE/list ${TRAVIS_BUILD_DIR}/active_domains.txt"
+cp "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/ACTIVE/list" "${TRAVIS_BUILD_DIR}/active_domains.txt"
 
 if [ -f "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/INACTIVE/list" ]
 then
