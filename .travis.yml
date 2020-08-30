@@ -43,6 +43,7 @@ addons:
 install:
   - pip3 install --upgrade pip
   - pip3 install -r "${TRAVIS_BUILD_DIR}/requirements.txt"
+  - pyfunceble --version
 
 git:
   depth: 2
