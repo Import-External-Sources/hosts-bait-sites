@@ -51,7 +51,7 @@ jobs:
   fast_finish: true
 
 script:
-  - sudo systemctl restart mysql.service
+  - sudo systemctl restart mysql.service pdns-recursor.service
   - sudo mysql -u root -h localhost -e "CREATE DATABASE PyFunceble DEFAULT CHARACTER
     SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
   - sudo mysql -u root -h localhost -e "CREATE USER 'root'@'%' IDENTIFIED BY ''"
