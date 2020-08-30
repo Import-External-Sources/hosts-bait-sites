@@ -19,10 +19,7 @@ env:
     - TRAVIS_REPO_SLUG: ${TRAVIS_REPO_SLUG} # Import-External-Sources/hosts-bait-sites
     - GIT_BRANCH: ${TRAVIS_BRANCH} # master
     - TZ: UTC
-    - PYFUNCEBLE_AUTO_CONFIGURATION: YES
-    #- DEBUG_PYFUNCEBLE_ON_SCREEN: False
-    #- PYFUNCEBLE_CONFIG_DIR: ${TRAVIS_BUILD_DIR}/dev-tools/
-    #- PYFUNCEBLE_AUTO_CONFIGURATION: PyFunceble
+    #- PYFUNCEBLE_DEBUG_ON_SCREEN: False
     - PYFUNCEBLE_CONFIG_DIR: "${TRAVIS_BUILD_DIR}/.pyfunceble/"
     - PYFUNCEBLE_OUTPUT_LOCATION: "${TRAVIS_BUILD_DIR}/.pyfunceble/"
     - PYFUNCEBLE_AUTO_CONFIGURATION: yes
@@ -34,7 +31,7 @@ env:
     - PYFUNCEBLE_DB_PORT="${DB_PORT}"
 
 addons:
-  mariadb: '10.4'
+  mariadb: '10.5'
   apt:
     update: true
     packages:
