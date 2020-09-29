@@ -26,6 +26,7 @@ platform.foursquare.com                                                         
 static.hootsuite.com                                                                                 ACTIVE      DNSLOOKUP 
 static.licdn.com                                                                                     ACTIVE      DNSLOOKUP 
 fbcallback.wechat.com                                                                                ACTIVE      DNSLOOKUP 
+addtoany.com                                                                                         ACTIVE      WHOIS     
 aisinsurance.com                                                                                     ACTIVE      WHOIS     
 aol.com                                                                                              ACTIVE      WHOIS     
 bex.com                                                                                              ACTIVE      WHOIS     
@@ -42,6 +43,7 @@ messenger.com                                                                   
 searchenginejournal.com                                                                              ACTIVE      WHOIS     
 trustpilot.com                                                                                       ACTIVE      WHOIS     
 usaa.com                                                                                             ACTIVE      WHOIS     
+whatsapp.com                                                                                         ACTIVE      WHOIS     
 blogspot.cv                                                                                          ACTIVE      DNSLOOKUP 
 blogspot.com.cy                                                                                      ACTIVE      DNSLOOKUP 
 blogspot.cz                                                                                          ACTIVE      WHOIS     
@@ -123,6 +125,7 @@ blogspot.no                                                                     
 blogspot.co.nz                                                                                       ACTIVE      DNSLOOKUP 
 internet.org                                                                                         ACTIVE      WHOIS     
 blogspot.pe                                                                                          ACTIVE      DNSLOOKUP 
+watchdog.energized.pro                                                                               ACTIVE      DNSLOOKUP 
 blogspot.pt                                                                                          ACTIVE      DNSLOOKUP 
 blogspot.qa                                                                                          ACTIVE      DNSLOOKUP 
 blogspot.re                                                                                          ACTIVE      WHOIS     
