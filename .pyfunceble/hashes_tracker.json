@@ -1,13 +1,13 @@
 {
     "wildcard.list": {
         "base": {
-            "datetime_iso": "2020-09-29T19:10:45.950382",
-            "hash": "cf4070a503b6ea4b56094c5917130f02a6cdb90cb7208a49c4442130"
+            "datetime_iso": "2020-10-27T19:12:38.890233",
+            "hash": "01148411000d96cafb05e5de6551b3af3b423af52b0ca4ead2adec81"
         },
         "latest": {
-            "datetime_iso": "2020-10-20T19:38:28.678904",
-            "hash": "cf4070a503b6ea4b56094c5917130f02a6cdb90cb7208a49c4442130"
+            "datetime_iso": "2020-10-27T19:12:38.890233",
+            "hash": "01148411000d96cafb05e5de6551b3af3b423af52b0ca4ead2adec81"
         },
-        "position": 0
+        "position": 2139
     }
 }
